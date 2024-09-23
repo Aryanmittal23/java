@@ -1,0 +1,4 @@
+Hello, this is a sample text file.
+It contains multiple lines.
+Each line has several words.
+Java programming is fun!

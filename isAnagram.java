@@ -1,4 +1,4 @@
-public static boolean isAnagram(String a, String b) {
+isAnagramc static boolean isAnagram(String a, String b) {
     if (a.length() != b.length()) {
         return false;
     }

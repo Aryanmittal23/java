@@ -5,6 +5,8 @@ class Solution1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter value of n: ");
         int n = sc.nextInt();
+
+        // Upper part of the pattern
         for (int i = 1; i <= n; i++) {
             for (int j = n; j > i; j--) {
                 System.out.print(" ");
@@ -17,6 +19,8 @@ class Solution1 {
             }
             System.out.println();
         }
+
+        // Lower part of the pattern
         for (int i = n - 1; i >= 1; i--) {
             for (int j = n; j > i; j--) {
                 System.out.print(" ");
